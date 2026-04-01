@@ -12,7 +12,7 @@ body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
   color: #3f3a36;
-  background-color: #f8f4ef;
+  background-color: #fdf5ec;
 }
 
 .container {
@@ -22,8 +22,7 @@ body {
 
 .hero {
   min-height: 100vh;
-  background: linear-gradient(rgba(89, 71, 58, 0.45), rgba(89, 71, 58, 0.45)),
-              url("https://images.unsplash.com/photo-1515377905703-c4788e51af15?auto=format&fit=crop&w=1600&q=80")
+  background: url("https://images.unsplash.com/photo-1515377905703-c4788e51af15?auto=format&fit=crop&w=1600&q=80")
               center/cover no-repeat;
   color: #fff;
   display: flex;
@@ -76,7 +75,7 @@ body {
   letter-spacing: 2px;
   text-transform: uppercase;
   margin-bottom: 1rem;
-  color: #f1dfcf;
+  color: #fde8cc;
 }
 
 .hero h1 {
@@ -93,7 +92,7 @@ body {
 
 .btn {
   display: inline-block;
-  background-color: #b78d65;
+  background-color: #f5a020;
   color: #fff;
   text-decoration: none;
   padding: 0.9rem 1.6rem;
@@ -111,7 +110,7 @@ body {
 
 .btn-light {
   background-color: #fff;
-  color: #7b5f4a;
+  color: #e04010;
 }
 
 section {
@@ -121,7 +120,7 @@ section {
 .intro,
 .about,
 .contact {
-  background-color: #fffaf5;
+  background-color: #fffaf3;
 }
 
 .intro h2,
@@ -132,7 +131,7 @@ section {
 .cta h2 {
   font-size: 2rem;
   margin-bottom: 1rem;
-  color: #6d5442;
+  color: #e04010;
 }
 
 .intro p,
@@ -144,7 +143,7 @@ section {
 }
 
 .services {
-  background-color: #f3ebe3;
+  background-color: #faebd7;
 }
 
 .cards {
@@ -163,7 +162,7 @@ section {
 
 .card h3 {
   margin-bottom: 0.8rem;
-  color: #7b5f4a;
+  color: #e04010;
 }
 
 .about-grid {
@@ -174,14 +173,14 @@ section {
 }
 
 .about-box {
-  background-color: #f3ebe3;
+  background-color: #faebd7;
   padding: 2rem;
   border-radius: 18px;
 }
 
 .about-box h3 {
   margin-bottom: 1rem;
-  color: #6d5442;
+  color: #e04010;
 }
 
 .about-box ul {
@@ -198,11 +197,11 @@ section {
   content: "•";
   position: absolute;
   left: 0;
-  color: #b78d65;
+  color: #f5a020;
 }
 
 .pricing {
-  background-color: #efe3d7;
+  background-color: #fde8cc;
 }
 
 .price-list {
@@ -217,7 +216,7 @@ section {
   display: flex;
   justify-content: space-between;
   padding: 1.2rem 1.5rem;
-  border-bottom: 1px solid #eee3d8;
+  border-bottom: 1px solid #fde8cc;
 }
 
 .price-item:last-child {
@@ -225,11 +224,11 @@ section {
 }
 
 .price-item strong {
-  color: #7b5f4a;
+  color: #e04010;
 }
 
 .cta {
-  background: linear-gradient(135deg, #b78d65, #8a6b54);
+  background: linear-gradient(135deg, #f5a020, #e04010);
   color: #fff;
   text-align: center;
 }
@@ -246,7 +245,7 @@ section {
 }
 
 .contact-box {
-  background-color: #f3ebe3;
+  background-color: #faebd7;
   padding: 2rem;
   border-radius: 18px;
 }
@@ -261,7 +260,7 @@ section {
 .contact-form textarea {
   width: 100%;
   padding: 1rem;
-  border: 1px solid #dbcbbb;
+  border: 1px solid #f5c890;
   border-radius: 12px;
   background-color: #fff;
   font: inherit;
@@ -270,7 +269,7 @@ section {
 .footer {
   text-align: center;
   padding: 1.5rem;
-  background-color: #6d5442;
+  background-color: #e04010;
   color: #fff;
 }
 
