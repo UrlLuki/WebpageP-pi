@@ -4,124 +4,168 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Massage Studio Harmonie</title>
-  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <header class="hero">
     <nav class="navbar">
       <div class="logo">Massage Studio Harmonie</div>
+
       <ul class="nav-links">
         <li><a href="#leistungen">Leistungen</a></li>
-        <li><a href="#ueber-uns">Über uns</a></li>
+        <li><a href="#vorteile">Vorteile</a></li>
         <li><a href="#preise">Preise</a></li>
         <li><a href="#kontakt">Kontakt</a></li>
       </ul>
     </nav>
 
+    <div class="hero-overlay"></div>
+
     <div class="hero-content">
-      <p class="subtitle">Entspannung. Wohlbefinden. Regeneration.</p>
-      <h1>Massagen für Körper und Seele</h1>
+      <p class="eyebrow">Ruhe • Regeneration • Wohlbefinden</p>
+      <h1>Exklusive Massagen für tiefe Entspannung</h1>
       <p class="hero-text">
-        Gönnen Sie sich eine Auszeit vom Alltag und genießen Sie wohltuende
-        Behandlungen in ruhiger, angenehmer Atmosphäre.
+        Lassen Sie den Alltag hinter sich und genießen Sie professionelle
+        Behandlungen in stilvoller Atmosphäre. Individuell, wohltuend und mit
+        Fokus auf Ihr persönliches Wohlbefinden.
       </p>
-      <a href="#kontakt" class="btn">Termin anfragen</a>
+
+      <div class="hero-buttons">
+        <a href="#kontakt" class="btn btn-primary">Termin anfragen</a>
+        <a href="#leistungen" class="btn btn-secondary">Leistungen ansehen</a>
+      </div>
+
+      <div class="hero-badges">
+        <div class="badge">Individuelle Betreuung</div>
+        <div class="badge">Entspannte Atmosphäre</div>
+        <div class="badge">Zentrale Lage</div>
+      </div>
     </div>
   </header>
 
   <main>
     <section class="intro">
-      <div class="container">
-        <h2>Willkommen in Ihrem Massagestudio</h2>
-        <p>
-          Bei uns stehen Entspannung, individuelle Betreuung und Ihr persönliches
-          Wohlbefinden im Mittelpunkt. Ob klassische Massage, Aromaölmassage oder
-          Rücken-Nacken-Behandlung – wir nehmen uns Zeit für Sie.
-        </p>
+      <div class="container intro-grid">
+        <div class="intro-card large">
+          <span class="section-tag">Willkommen</span>
+          <h2>Ihr Rückzugsort für Körper und Seele</h2>
+          <p>
+            In unserem Studio erwartet Sie eine ruhige, hochwertige Umgebung,
+            in der Sie abschalten, loslassen und neue Energie tanken können.
+            Jede Behandlung wird mit Zeit, Feingefühl und Fokus auf Ihre
+            individuellen Bedürfnisse durchgeführt.
+          </p>
+        </div>
+
+        <div class="intro-card stat">
+          <div class="stat-number">100%</div>
+          <div class="stat-text">Fokus auf Entspannung und persönliche Betreuung</div>
+        </div>
       </div>
     </section>
 
     <section id="leistungen" class="services">
       <div class="container">
-        <h2>Unsere Leistungen</h2>
-        <div class="cards">
-          <article class="card">
+        <span class="section-tag center">Leistungen</span>
+        <h2 class="section-title center">Wohltuende Behandlungen</h2>
+
+        <div class="services-grid">
+          <article class="service-card">
+            <div class="service-icon">✦</div>
             <h3>Klassische Massage</h3>
             <p>
-              Ideal zur Lockerung verspannter Muskulatur und zur Förderung des
-              allgemeinen Wohlbefindens.
+              Für die Lockerung verspannter Muskulatur und ein angenehm
+              ausgeglichenes Körpergefühl.
             </p>
           </article>
 
-          <article class="card">
+          <article class="service-card">
+            <div class="service-icon">✦</div>
             <h3>Aromaölmassage</h3>
             <p>
-              Sanfte Entspannung mit ausgewählten Düften für Körper, Geist und Seele.
+              Sanfte Entspannung mit harmonischen Düften für eine besonders
+              beruhigende Wirkung.
             </p>
           </article>
 
-          <article class="card">
-            <h3>Rücken- & Nackenmassage</h3>
+          <article class="service-card">
+            <div class="service-icon">✦</div>
+            <h3>Rücken & Nacken</h3>
             <p>
-              Besonders geeignet bei Alltagsstress, sitzender Tätigkeit und
-              muskulären Verspannungen.
+              Ideal bei Alltagsstress, sitzender Tätigkeit und typischen
+              Verspannungen im oberen Rückenbereich.
             </p>
           </article>
 
-          <article class="card">
-            <h3>Fuß- & Beinmassage</h3>
+          <article class="service-card">
+            <div class="service-icon">✦</div>
+            <h3>Ganzkörpermassage</h3>
             <p>
-              Wohltuende Behandlung für müde Beine und ein angenehm leichtes Gefühl.
+              Eine umfassende Behandlung für tiefe Regeneration, Ruhe und ein
+              ganzheitlich angenehmes Körpergefühl.
             </p>
           </article>
         </div>
       </div>
     </section>
 
-    <section id="ueber-uns" class="about">
-      <div class="container about-grid">
-        <div>
-          <h2>Über uns</h2>
+    <section id="vorteile" class="benefits">
+      <div class="container benefits-grid">
+        <div class="benefits-text">
+          <span class="section-tag">Warum wir</span>
+          <h2>Mehr als nur eine Massage</h2>
           <p>
-            In unserem Studio verbinden wir professionelle Behandlungen mit einer
-            warmen und entspannten Atmosphäre. Jeder Termin wird individuell auf
-            Ihre Bedürfnisse abgestimmt.
-          </p>
-          <p>
-            Unser Ziel ist es, dass Sie sich nicht nur körperlich besser fühlen,
-            sondern auch mental zur Ruhe kommen.
+            Bei uns geht es nicht nur um Behandlung, sondern um echte
+            Erholung. Das Zusammenspiel aus ruhigem Ambiente, professioneller
+            Durchführung und individueller Betreuung sorgt für ein spürbar
+            hochwertiges Erlebnis.
           </p>
         </div>
-        <div class="about-box">
-          <h3>Ihre Vorteile</h3>
-          <ul>
-            <li>Ruhige Wohlfühlatmosphäre</li>
-            <li>Individuelle Betreuung</li>
-            <li>Flexible Terminvereinbarung</li>
-            <li>Zentrale Lage</li>
-          </ul>
+
+        <div class="benefit-list">
+          <div class="benefit-item">
+            <h3>Ruhiges Ambiente</h3>
+            <p>Warme Farben, stilvolle Gestaltung und eine Atmosphäre zum Abschalten.</p>
+          </div>
+
+          <div class="benefit-item">
+            <h3>Persönliche Betreuung</h3>
+            <p>Jeder Termin wird auf Ihre Wünsche und Bedürfnisse abgestimmt.</p>
+          </div>
+
+          <div class="benefit-item">
+            <h3>Flexible Termine</h3>
+            <p>Unkomplizierte Terminvereinbarung und angenehmer Ablauf.</p>
+          </div>
+
+          <div class="benefit-item">
+            <h3>Wohlfühlfokus</h3>
+            <p>Ein Ort, an dem Entspannung, Ruhe und Regeneration im Mittelpunkt stehen.</p>
+          </div>
         </div>
       </div>
     </section>
 
     <section id="preise" class="pricing">
       <div class="container">
-        <h2>Preise</h2>
-        <div class="price-list">
-          <div class="price-item">
-            <span>30 Minuten Massage</span>
+        <span class="section-tag center">Preise</span>
+        <h2 class="section-title center">Unsere Behandlungen</h2>
+
+        <div class="pricing-box">
+          <div class="price-row">
+            <span>30 Minuten</span>
             <strong>€ 35</strong>
           </div>
-          <div class="price-item">
-            <span>45 Minuten Massage</span>
+          <div class="price-row">
+            <span>45 Minuten</span>
             <strong>€ 49</strong>
           </div>
-          <div class="price-item">
-            <span>60 Minuten Massage</span>
+          <div class="price-row">
+            <span>60 Minuten</span>
             <strong>€ 59</strong>
           </div>
-          <div class="price-item">
-            <span>90 Minuten Massage</span>
+          <div class="price-row">
+            <span>90 Minuten</span>
             <strong>€ 85</strong>
           </div>
         </div>
@@ -129,38 +173,41 @@
     </section>
 
     <section class="cta">
-      <div class="container">
-        <h2>Zeit für Entspannung?</h2>
-        <p>Vereinbaren Sie jetzt Ihren Wohlfühltermin.</p>
-        <a href="#kontakt" class="btn btn-light">Jetzt kontaktieren</a>
+      <div class="container cta-box">
+        <span class="section-tag center light">Entspannung beginnt hier</span>
+        <h2>Gönnen Sie sich Ihre persönliche Auszeit</h2>
+        <p>
+          Vereinbaren Sie jetzt Ihren Termin und genießen Sie wohltuende
+          Entspannung in stilvoller Atmosphäre.
+        </p>
+        <a href="#kontakt" class="btn btn-light">Jetzt Termin anfragen</a>
       </div>
     </section>
 
     <section id="kontakt" class="contact">
-      <div class="container">
-        <h2>Kontakt</h2>
-        <div class="contact-grid">
-          <div class="contact-box">
-            <h3>Massage Studio Harmonie</h3>
-            <p>Musterstraße 12<br />8010 Graz</p>
-            <p>Telefon: +43 660 1234567</p>
-            <p>E-Mail: info@massagestudio-harmonie.at</p>
-          </div>
-
-          <form class="contact-form">
-            <input type="text" placeholder="Ihr Name" required />
-            <input type="email" placeholder="Ihre E-Mail" required />
-            <input type="tel" placeholder="Ihre Telefonnummer" />
-            <textarea placeholder="Ihre Nachricht" rows="5"></textarea>
-            <button type="submit" class="btn">Nachricht senden</button>
-          </form>
+      <div class="container contact-grid">
+        <div class="contact-info">
+          <span class="section-tag">Kontakt</span>
+          <h2>Wir freuen uns auf Ihre Anfrage</h2>
+          <p>Massage Studio Harmonie</p>
+          <p>Musterstraße 12, 8010 Graz</p>
+          <p>+43 660 1234567</p>
+          <p>info@massagestudio-harmonie.at</p>
         </div>
+
+        <form class="contact-form">
+          <input type="text" placeholder="Ihr Name" required />
+          <input type="email" placeholder="Ihre E-Mail" required />
+          <input type="tel" placeholder="Ihre Telefonnummer" />
+          <textarea rows="5" placeholder="Ihre Nachricht"></textarea>
+          <button type="submit" class="btn btn-primary form-btn">Nachricht senden</button>
+        </form>
       </div>
     </section>
   </main>
 
   <footer class="footer">
-    <p>&copy; 2026 Massage Studio Harmonie. Alle Rechte vorbehalten.</p>
+    <p>© 2026 Massage Studio Harmonie • Alle Rechte vorbehalten</p>
   </footer>
 </body>
 </html>
