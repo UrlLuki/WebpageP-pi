@@ -127,7 +127,6 @@ section {
 .services h2,
 .about h2,
 .pricing h2,
-.contact h2,
 .cta h2 {
   font-size: 2rem;
   margin-bottom: 1rem;
@@ -238,10 +237,8 @@ section {
 }
 
 .contact-grid {
-  display: grid;
-  grid-template-columns: 1fr 1.2fr;
-  gap: 2rem;
-  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
 }
 
 .contact-box {
@@ -310,4 +307,11 @@ section {
   .hero-content {
     padding-top: 4rem;
   }
+}
+
+.contact h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #e04010;
+  text-align: center;
 }
